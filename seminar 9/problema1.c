@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-typedef struct{
+typedef struct
+{
     float x, y;
-}punct;
+} punct;
 
-int main(){
+int main()
+{
     punct P;
     printf("Introduceti x: ");
     scanf("%f", &P.x);
